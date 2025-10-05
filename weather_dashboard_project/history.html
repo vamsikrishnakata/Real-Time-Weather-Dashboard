@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search History</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Search History</h1>
+        <a href="/"><button class="btn btn-primary">Back to Dashboard</button></a>
+        <a href="/delete_all"><button class="btn btn-danger">Delete All History</button></a>
+
+        <table class="history-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>City</th>
+                    <th>Search Time</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- History rows will be injected here by server.py -->
+            </tbody>
+        </table>
+
+        <p id="no-history" style="text-align:center; margin-top:20px;">No history found.</p>
+    </div>
+</body>
+</html>

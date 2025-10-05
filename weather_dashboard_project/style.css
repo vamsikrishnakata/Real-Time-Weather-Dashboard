@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #32b0c9, #d0d03c);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.dashboard-container {
+    border: 5px solid #fbf8f8;
+    border-radius: 25px;
+    padding: 50px;
+    max-width: 700px;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15), rgba(255, 255, 255, 0.05));
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 35px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    font-size: 3rem;
+    font-family: cursive;
+}
+
+form {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+input, button {
+    font-size: 18px;
+    padding: 12px;
+}
+
+input {
+    flex: 1;
+    border-radius: 8px 0 0 8px;
+    border: none;
+}
+
+button {
+    border-radius: 0 8px 8px 0;
+    border: none;
+    background-color: #2c91e3;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0a9640;
+}
+
+.weather-card {
+    padding: 25px;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.25);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.418);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.weather-card h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.weather-card p {
+    margin: 8px 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.not-found {
+    text-align: center;
+    font-size: 20px;
+    color: #e41313;
+    margin-top: 25px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.history-table th, .history-table td {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.history-table th {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.btn-danger {
+    background-color: #e41313;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn-danger:hover {
+    background-color: #a10f0f;
+}
+
+.btn-secondary {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: #333;
+}
